@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(20, 20, 31);
     font-family:serif;
 }
 footer {
@@ -14,4 +14,11 @@ footer p{
     text-align: center;
     font-size: 0.6rem;
     margin-top: 0.5rem;
+}
+#container {
+    display: flex;
+}
+.cartao {
+    margin: 1rem 1rem;
+    background-color: rgb(240, 165, 54);
 }
