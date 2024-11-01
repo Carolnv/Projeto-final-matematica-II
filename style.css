@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(20, 20, 31);
+    background-color: rgb(14, 14, 20);
     font-family:serif;
 }
 footer {
@@ -20,5 +20,15 @@ footer p{
 }
 .cartao {
     margin: 1rem 1rem;
-    background-color: rgb(240, 165, 54);
+    background-color: rgb(70, 45, 104);
+}
+:root{
+    --text-color: #ffffffff;
+    --card-front-color: rgb(0, 0, 0);
+    --card-back-color: rgb(10, 10, 20);
+}
+.cartao__conteudo {
+    background-color: var(--card-front-color);
+    text-align: center;
+    height: 100%;
 }
