@@ -1,0 +1,41 @@
+:root{
+    --text-color: rgb(199, 199, 199);
+    --card-front-color: rgb(89, 52, 124);
+    --card-back-color: rgb(255, 255, 255);
+}
+body {
+    background-color: rgb(14, 14, 20); 
+    color: white;
+    font-family:serif;
+}
+.cartao__conteudo {
+    background-color: var(--card-front-color);
+    text-align: center;
+    height: 100%;
+}
+#container {
+    display: flex;
+}
+.cartao {
+    margin: 1rem 1rem;
+    background-color: rgb(67, 41, 104);
+    height: 15rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+.cartao__conteudo p {
+    padding: 4rem;
+}
+footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    position:fixed;
+    bottom: 0%;
+    width: 100%;
+    height: 2rem;
+}
+footer p{
+    text-align: center;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+}
